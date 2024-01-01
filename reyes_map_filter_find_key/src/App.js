@@ -35,13 +35,9 @@ const App = () => {
   ]
   return (
     <>
-      <MiComponente nombre ={reyes[0].nombre} reinado ={reyes[0].reinado} vacas={reyes[0].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[1].nombre} reinado ={reyes[1].reinado} vacas={reyes[1].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[2].nombre} reinado ={reyes[2].reinado} vacas={reyes[2].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[3].nombre} reinado ={reyes[3].reinado} vacas={reyes[3].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[4].nombre} reinado ={reyes[4].reinado} vacas={reyes[4].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[5].nombre} reinado ={reyes[5].reinado} vacas={reyes[5].vacasComidas}></MiComponente>
-      <MiComponente nombre ={reyes[6].nombre} reinado ={reyes[6].reinado} vacas={reyes[6].vacasComidas}></MiComponente>
+    <h1>Actividad 1:</h1>
+      <MiComponente reyes={reyes}></MiComponente>
+      
     </>
   )
 }
